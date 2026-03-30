@@ -1,0 +1,190 @@
+<?xml version ="1.0" encoding="utf-8"?>
+
+<NationalPark
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://kbheemav123.github.io/Assignment4_CSE445/NationalParks.xsd">
+	<!--Park 1-->
+	<NationalPark Rating="4.8">
+
+		<Name>Grand Canyon National Park</Name>
+		<Name>Fort Bowie National Historic Site</Name>
+		<Phone>(928)-638-7888</Phone>
+		<Phone>(928)-638-7798</Phone>
+		<Phone>(888)-297-2757</Phone>
+		<Phone>(888)-653-0009</Phone>
+		<Address>
+			<Number>450</Number>
+			<Street>State Route 64</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+	<!--Park 2-->
+	<NationalPark>
+
+		<Name>Fort Bowie National Historic Site</Name>
+		<Phone>(520)-549-6751</Phone>
+		<Address NearestAirport="Tucson">
+			<Number>3500</Number>
+			<Street>S Apache Pass Rd</Street>
+			<City>Bowie</City>
+			<State>AZ</State>
+			<Zip>85605</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+	<!--Park 3-->
+	<NationalPark Rating="4.7">
+
+		<Name>Petrified Forest National Park</Name>
+		<Phone>(928)-524-6228</Phone>
+		<Phone>(928)-235-2467</Phone>
+		<Phone>(928)-235-2391</Phone>
+		<Address NearestAirport="Flagstaff">
+			<Number>1</Number>
+			<Street>Park Road</Street>
+			<City>Petrified Forest</City>
+			<State>AZ</State>
+			<Zip>86028</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+	<!--Park 4-->
+	<NationalPark Rating="4.7">
+
+		<Name>Tumacacori National Historical Park</Name>
+		<Phone>(520)-377-5060</Phone>
+		<Phone>(520)-377-5064</Phone>
+		<Address NearestAirport="Tucson">
+			<Number>1891</Number>
+			<Street>East Frontage Road</Street>
+			<City>Tumacacori</City>
+			<State>AZ</State>
+			<Zip>85640</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+	<!--Park 5-->
+	<NationalPark>
+
+		<Name>Casa Grande Ruins National Monument</Name>
+		<Address NearestAirport="Phoenix">
+			<Number>1100</Number>
+			<Street>W. Ruins Drive</Street>
+			<City>Coolidge</City>
+			<State>AZ</State>
+			<Zip>85128</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+	<!--Park 6-->
+	<NationalPark Rating="4.9">
+
+		<Name>Chiricahua National Monument</Name>
+		<Phone>(520)-824-3560</Phone>
+		<Phone>(877)-444-6777</Phone>
+		<Address NearestAirport="Tucson">
+			<Number>12856</Number>
+			<Street>East Rhyolite Creek Road</Street>
+			<City>Willcox</City>
+			<State>AZ</State>
+			<Zip>85643</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+	<!--Park 7-->
+	<NationalPark Rating="4.8">
+
+		<Name>Coronado National Memorial</Name>
+		<Phone>(520)-366-5515</Phone>
+		<Address NearestAirport="Tucson">
+			<Number>4101</Number>
+			<Street>E Montezuma Canyon Road</Street>
+			<City>Hereford</City>
+			<State>AZ</State>
+			<Zip>85615</Zip>
+
+
+
+
+		</NationalPark>
+
+	<!--Park 8-->
+	<NationalPark>
+
+		<Name>Glen Canyon National Recreation Area</Name>
+		<Phone>(928)-608-6200</Phone>
+		<Phone>(928)-608-6072 </Phone>
+		<Phone>(435)-684-7423</Phone>
+		<Phone>(928)-660-7881</Phone>
+		<Address NearestAirport="Page">
+			<Number>691</Number>
+			<Street>Scenic View Rd Dr</Street>
+			<City>Page</City>
+			<State>AZ</State>
+			<Zip>86040</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+	<!--Park 9-->
+	<NationalPark Rating="4.9">
+
+		<Name>Hubbell Trading Post National Historic Site</Name>
+		<Phone>(928)-755-3475</Phone>
+		<Address NearestAirport="Gallup">
+			<Number>1/2</Number>
+			<Street>Mile W,Hwy.191</Street>
+			<City>Ganado</City>
+			<State>AZ</State>
+			<Zip>86505</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+	<!--Park 10-->
+	<NationalPark Rating="4.6">
+
+		<Name>Lake Mead National Recreation Area</Name>
+		<Phone>(702)-293-8990</Phone>
+		<Phone>(702)-293-8906</Phone>
+		<Phone>(702)-515-5300</Phone>
+		<Phone>(702)-293-6180</Phone>
+		<Address NearestAirport="Paradise">
+			<Number>601</Number>
+			<Street>Nevada Way</Street>
+			<City>Boulder City</City>
+			<State>NV</State>
+			<Zip>89005</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+
+
+</NationalPark>
