@@ -1,42 +1,29 @@
 <?xml version ="1.0" encoding="utf-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <!-- Defining the root element -->
-	<xsd:element name="NationalParks">
-		<xsd:complexType>
+	<xsd:element name="NationalParks" type="NationalParksType"/>
+	<xsd:complexType name="NationalParksType">
+		<xsd:sequence>
+			<xsd:element name="NationalPark" type="NationalParkType" minOccurs="10" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="NationalParkType">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string"/>
+			<xsd:element name="Phone" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="Address" type="AddressType"/>
+		</xsd:sequence>
+		<xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="AddressType">
 			<xsd:sequence>
-                        <!-- Defining NationalPark element where all the info for the park will occur in sequence and a min 10 parks -->
-				<xsd:element name="NationalPark" minOccurs="10" maxOccurs="unbounded">
-					<xsd:complexType>
-						<xsd:sequence>
-							 <!-- Here defined the element name , phone, address in order-->
-							<xsd:element name="Name" type="xsd:string"/>
-							 <!-- Phone occurences btw 0 and unbounded -->
-							<xsd:element name="Phone" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
-							<xsd:element name="Address">
-								<xsd:complexType>
-									<xsd:sequence>
-										 <!-- Addrress starts with number folllowed by street,city & zip -->
-										<xsd:element name="Number" type="xsd:string"/>
-										<xsd:element name="Street" type="xsd:string"/>
-										<xsd:element name="City" type="xsd:string"/>
-										<xsd:element name="State" type="xsd:string"/>
-										<xsd:element name="Zip" type="xsd:string"/>
-
-									</xsd:sequence>
-									 <!--  Required attribute, the location of nearrest airport from the park-->
-									<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
-								</xsd:complexType>
-							</xsd:element>
-
-
-						</xsd:sequence>
-						 <!-- Optional attribute for the rating of the park -->
-						<xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
-					</xsd:complexType>
-				</xsd:element>
+				<xsd:element name="Number" type="xsd:string"/>
+				<xsd:element name="Street" type="xsd:string"/>
+				<xsd:element name="City" type="xsd:string"/>
+				<xsd:element name="State" type="xsd:string"/>
+				<xsd:element name="Zip" type="xsd:string"/>
 			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-
-
+			<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
+	</xsd:complexType>
 </xsd:schema>
+					
