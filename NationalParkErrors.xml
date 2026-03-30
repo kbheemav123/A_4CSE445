@@ -2,7 +2,7 @@
 
 <NationalPark
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="https://kbheemav123.github.io/Assignment4_CSE445/NationalParks.xsd">
+	xsi:noNamespaceSchemaLocation="https://kbheemav123.github.io/A_4CSE445/NationalParks.xsd">
 	<!--Park 1-->
 	<NationalPark Rating="4.8">
 
