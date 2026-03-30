@@ -4,9 +4,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/kbheemav123/A_4CSE445/refs/heads/main/NationalParks.xsd">
 	<!--Park 1-->
+	<!-- Has optional attribute, followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark Rating="4.8">
 		
-		<Name>Grand Canyon National Park</Name>
+		<Name>Grand Canyon National Park</Name> 
 		<Phone>(928)-638-7888</Phone>
 		<Phone>(928)-638-7798</Phone>
 		<Phone>(888)-297-2757</Phone>
@@ -24,6 +25,7 @@
 	</NationalPark>
 
 	<!--Park 2-->
+	<!-- Followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark>
 
 		<Name>Fort Bowie National Historic Site</Name>
@@ -41,6 +43,7 @@
 	</NationalPark>
 
 	<!--Park 3-->
+	<!-- Has optional attribute, followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark Rating="4.7">
 
 		<Name>Petrified Forest National Park</Name>
@@ -60,6 +63,7 @@
 	</NationalPark>
 
 	<!--Park 4-->
+	<!-- Has optional attribute, followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark Rating="4.7">
 
 		<Name>Tumacacori National Historical Park </Name>
@@ -78,6 +82,7 @@
 	</NationalPark>
 
 	<!--Park 5-->
+	<!--Followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark>
 
 		<Name>Casa Grande Ruins National Monument</Name>
@@ -95,6 +100,7 @@
 	</NationalPark>
 
 	<!--Park 6-->
+	<!-- Has optional attribute, followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark Rating="4.9">
 
 		<Name>Chiricahua National Monument</Name>
@@ -113,6 +119,7 @@
 	</NationalPark>
 
 	<!--Park 7-->
+	<!-- Has optional attribute, followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark Rating="4.8">
 
 		<Name>Coronado National Memorial</Name>
@@ -130,6 +137,7 @@
 	</NationalPark>
 
 	<!--Park 8-->
+	<!--Followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark>
 
 		<Name>Glen Canyon National Recreation Area</Name>
@@ -150,6 +158,7 @@
 	</NationalPark>
 
 	<!--Park 9-->
+	<!-- Has optional attribute, followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark Rating="4.9">
 
 		<Name>Hubbell Trading Post National Historic Site</Name>
@@ -167,6 +176,7 @@
 	</NationalPark>
 
 	<!--Park 10-->
+	<!-- Has optional attribute, followed by name, phone and address with required attribute nearest airport-->
 	<NationalPark Rating="4.6">
 
 		<Name>Lake Mead National Recreation Area</Name>
@@ -180,6 +190,24 @@
 			<City>Boulder City</City>
 			<State>NV</State>
 			<Zip>89005</Zip>
+
+		</Address>
+
+
+	</NationalPark>
+	<!-- Has optional attribute, followed by name, phone and address with required attribute nearest airport-->
+	<!--Park 11-->
+	<NationalPark Rating="4.8">
+
+		<Name>Denali National Park</Name>
+		<Phone>(907)-683-9532</Phone>
+	
+		<Address NearestAirport="Paradise">
+			<Number>1.5</Number>
+			<Street>Mile Denali</Street>
+			<City>Park Road</City>
+			<State>AK</State>
+			<Zip>99755</Zip>
 
 		</Address>
 
